@@ -1,0 +1,18 @@
+1) Proper Class Refactoring
+			Remove console msg class
+			make AI Interface instead of a class
+			make Random AI & Defensive AI class implement AI
+			make Theme Interface instead of a class
+			make the 3 Theme classes implement Theme class
+			Refactor Game Logic
+			
+			Use Getters, Setters, final, Private Access Modifiers
+
+2) Unit Test Coverage
+no clu how
+
+3) AI: Defensive #13
+https://github.com/iut-cse/tic-tac-toe-swe-18/issues/13 
+
+4) Game Winning Animation #14
+https://github.com/iut-cse/tic-tac-toe-swe-18/issues/14

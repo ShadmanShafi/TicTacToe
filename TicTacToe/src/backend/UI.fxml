@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="backend.Controller">
+    <children>
+        <SplitPane dividerPositions="0.6" layoutX="168.0" layoutY="120.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                    <children>
+                        <GridPane fx:id="GridPane01" layoutX="-133.0" layoutY="145.0" prefHeight="398.0" prefWidth="489.0" style="-fx-background-color: BLACK;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            </rowConstraints>
+                            <children>
+                                <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                    <children>
+                                        <Button fx:id="button_00" layoutY="54.0" mnemonicParsing="false" onAction="#tileButtonPressed" style="-fx-background-color: WHITE;" AnchorPane.bottomAnchor="3.0" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="3.0" AnchorPane.topAnchor="3.0">
+                                            <font>
+                                                <Font size="42.0" />
+                                            </font></Button>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
+                                    <children>
+                                        <Button fx:id="button_10" layoutY="42.0" mnemonicParsing="false" onAction="#tileButtonPressed" style="-fx-background-color: WHITE;" AnchorPane.bottomAnchor="3.0" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="3.0" AnchorPane.topAnchor="3.0">
+                                            <font>
+                                                <Font size="42.0" />
+                                            </font></Button>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2">
+                                    <children>
+                                        <Button fx:id="button_20" layoutY="54.0" mnemonicParsing="false" onAction="#tileButtonPressed" style="-fx-background-color: WHITE;" AnchorPane.bottomAnchor="3.0" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="3.0" AnchorPane.topAnchor="3.0">
+                                            <font>
+                                                <Font size="42.0" />
+                                            </font></Button>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+                                    <children>
+                                        <Button fx:id="button_01" layoutX="40.0" layoutY="52.0" mnemonicParsing="false" onAction="#tileButtonPressed" style="-fx-background-color: WHITE;" AnchorPane.bottomAnchor="3.0" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="3.0" AnchorPane.topAnchor="3.0">
+                                            <font>
+                                                <Font size="42.0" />
+                                            </font></Button>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                    <children>
+                                        <Button fx:id="button_11" layoutX="65.0" layoutY="42.0" mnemonicParsing="false" onAction="#tileButtonPressed" style="-fx-background-color: WHITE;" AnchorPane.bottomAnchor="3.0" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="3.0" AnchorPane.topAnchor="3.0">
+                                            <font>
+                                                <Font size="42.0" />
+                                            </font></Button>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                                    <children>
+                                        <Button fx:id="button_21" layoutX="33.0" layoutY="42.0" mnemonicParsing="false" onAction="#tileButtonPressed" style="-fx-background-color: WHITE;" AnchorPane.bottomAnchor="3.0" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="3.0" AnchorPane.topAnchor="3.0">
+                                            <font>
+                                                <Font size="42.0" />
+                                            </font></Button>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">
+                                    <children>
+                                        <Button fx:id="button_02" layoutX="34.0" layoutY="41.0" mnemonicParsing="false" onAction="#tileButtonPressed" style="-fx-background-color: WHITE;" AnchorPane.bottomAnchor="3.0" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="3.0" AnchorPane.topAnchor="3.0">
+                                            <font>
+                                                <Font size="42.0" />
+                                            </font></Button>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                    <children>
+                                        <Button fx:id="button_12" layoutY="23.0" mnemonicParsing="false" onAction="#tileButtonPressed" style="-fx-background-color: WHITE;" AnchorPane.bottomAnchor="3.0" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="3.0" AnchorPane.topAnchor="3.0">
+                                            <font>
+                                                <Font size="42.0" />
+                                            </font></Button>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                                    <children>
+                                        <Button fx:id="button_22" layoutX="33.0" layoutY="54.0" mnemonicParsing="false" onAction="#tileButtonPressed" style="-fx-background-color: WHITE;" AnchorPane.bottomAnchor="3.0" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="3.0" AnchorPane.topAnchor="3.0">
+                                            <font>
+                                                <Font size="42.0" />
+                                            </font></Button>
+                                    </children>
+                                </AnchorPane>
+                            </children>
+                        </GridPane>
+                    </children>
+                </AnchorPane>
+                <AnchorPane fx:id="AnchorPaneRight" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                    <children>
+                        <Text fontSmoothingType="LCD" layoutY="13.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Theme" AnchorPane.bottomAnchor="354.05859375" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="170.6513671875" AnchorPane.topAnchor="20.0">
+                            <font>
+                                <Font name="System Bold" size="18.0" />
+                            </font>
+                        </Text>
+                        <RadioButton layoutY="53.0" mnemonicParsing="false" onAction="#changeThemeToClassic" selected="true" text="Classic" AnchorPane.leftAnchor="8.0" AnchorPane.topAnchor="53.0">
+                            <toggleGroup>
+                                <ToggleGroup fx:id="themeSelection" />
+                            </toggleGroup>
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></RadioButton>
+                        <RadioButton layoutX="8.0" layoutY="79.0" mnemonicParsing="false" onAction="#changeThemeToForrest" text="Forrest" toggleGroup="$themeSelection" AnchorPane.leftAnchor="8.0" AnchorPane.topAnchor="79.0">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></RadioButton>
+                        <RadioButton layoutX="8.0" layoutY="106.0" mnemonicParsing="false" onAction="#changeThemeToHighContrast" text="High Contrast" toggleGroup="$themeSelection" AnchorPane.leftAnchor="8.0" AnchorPane.topAnchor="106.0">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></RadioButton>
+                        <Button fx:id="startWithDefensiveAI" layoutX="1.0" layoutY="347.0" mnemonicParsing="false" onAction="#startWithDefensiveAIClicked" prefHeight="25.0" prefWidth="232.0" style="-fx-background-color: BLACK;" text="Start With Defensive AI" textFill="WHITE" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="2.0">
+                            <padding>
+                                <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                            </padding>
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Button>
+                        <Button fx:id="startWithRandomAI" layoutX="2.0" layoutY="308.0" mnemonicParsing="false" onAction="#startWithRandomAIClicked" prefHeight="25.0" prefWidth="232.0" style="-fx-background-color: BLACK;" text="Start With Random AI" textFill="WHITE" AnchorPane.bottomAnchor="65.0" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="2.0">
+                            <padding>
+                                <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                            </padding>
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font></Button>
+                    </children>
+                </AnchorPane>
+            </items>
+        </SplitPane>
+    </children>
+</AnchorPane>
